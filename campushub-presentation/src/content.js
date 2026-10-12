@@ -4,6 +4,7 @@
 export const REPO = 'UOA-CS734-S2-2026/project-implementation-project-cloud';
 export const REPO_URL = `https://github.com/${REPO}`;
 export const API_URL = 'https://campushub-api-9mfd.onrender.com';
+export const VIDEO_URL = 'https://drive.google.com/file/d/1iw4wQFtWIDpGvsIie8N0kUszUvS3TuYg/view?usp=sharing';
 export const TOTAL_SECONDS = 12 * 60;
 
 export const SECTIONS = [

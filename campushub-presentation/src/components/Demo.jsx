@@ -1,5 +1,6 @@
 import { PinnedSection } from './Section.jsx';
-import { DEMO } from '../content.js';
+import { DEMO, VIDEO_URL } from '../content.js';
+
 
 export default function Demo({ meta }) {
   return (
@@ -25,6 +26,13 @@ export default function Demo({ meta }) {
                   </li>
                 ))}
               </ul>
+              <a className="video-btn" href={VIDEO_URL} target="_blank" rel="noreferrer">
+              Play the backup video
+              </a>
+              <p className="video-note">
+               Note: in the video, for the Bluetooth beacon part, we couldn't access Room 302. We placed the beacon
+                in the Quad instead, changed the destination to the Quad, and navigated there.
+              </p>
             </div>
             <ol className="runway">
               {DEMO.steps.map((x, i) => (
